@@ -3,7 +3,8 @@ The program is based on C++, for 5GB traject runs for 1 mins (Intel(R) Core(TM) 
 The trajectory should be one dimension.
 ```
 mkdir build & cd build
-cmake
+cmake ..
+make -j4
 cd src
 ./D_trans --filename $Your_trajectory$
 ```
